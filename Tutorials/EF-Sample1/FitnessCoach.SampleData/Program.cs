@@ -1,5 +1,5 @@
 ﻿using FitnessCoach.Model;
-//using Newtonsoft.Json;
+using Newtonsoft.Json;
 using System.IO;
 
 namespace FitnessCoach.SampleData
@@ -12,8 +12,7 @@ namespace FitnessCoach.SampleData
             var directory = Path.GetDirectoryName(path);
             var workoutFilePath = Path.Combine(directory, @"Data\workouts.json");
 
-            //var workouts = JsonConvert.DeserializeObject<Workout[]>(File.ReadAllText(workoutFilePath));
-            //// sculi buli
+            var workouts = JsonConvert.DeserializeObject<Workout[]>(File.ReadAllText(workoutFilePath));
         }
     }
 }
