@@ -1,0 +1,483 @@
+[{
+	"WorkoutId": 0,
+	"Name": "Chest and Arms Workout",
+	"Comment": "Benchpress and through arm workout.",
+	"WorkoutType": 1,
+	"Exercises": [{
+		"ExerciseId": 0,
+		"Ordinal": 0,
+		"Name": "Benchpress",
+		"ExerciseType": 0,
+		"Sets": [{
+			"SetId": 0,
+			"Ordinal": 0,
+			"Repetitions": 20,
+			"Weigth": 20.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 1,
+			"Repetitions": 16,
+			"Weigth": 40.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 2,
+			"Repetitions": 12,
+			"Weigth": 60.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 3,
+			"Repetitions": 8,
+			"Weigth": 70.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 4,
+			"Repetitions": 5,
+			"Weigth": 75.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 5,
+			"Repetitions": 2,
+			"Weigth": 80.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 6,
+			"Repetitions": 5,
+			"Weigth": 75.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 7,
+			"Repetitions": 8,
+			"Weigth": 70.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		}],
+		"Workouts": null
+	},
+	{
+		"ExerciseId": 0,
+		"Ordinal": 1,
+		"Name": "EZ Bar Curl",
+		"ExerciseType": 0,
+		"Sets": [{
+			"SetId": 0,
+			"Ordinal": 0,
+			"Repetitions": 20,
+			"Weigth": 6,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 1,
+			"Repetitions": 12,
+			"Weigth": 16.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 2,
+			"Repetitions": 8,
+			"Weigth": 26.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 3,
+			"Repetitions": 8,
+			"Weigth": 26.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 4,
+			"Repetitions": 8,
+			"Weigth": 26.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		}],
+		"Workouts": null
+	},
+	{
+		"ExerciseId": 0,
+		"Ordinal": 2,
+		"Name": "Neutral Grip Chin Up",
+		"ExerciseType": 1,
+		"Sets": [{
+			"SetId": 0,
+			"Ordinal": 0,
+			"Repetitions": 8,
+			"Weigth": 0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 1,
+			"Repetitions": 8,
+			"Weigth": 0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 2,
+			"Repetitions": 8,
+			"Weigth": 0,
+			"ExerciseId": 0,
+			"Exercise": null
+		}],
+		"Workouts": null
+	},
+	{
+		"ExerciseId": 0,
+		"Ordinal": 1,
+		"Name": "Lying EZ Bar Triceps Press",
+		"ExerciseType": 0,
+		"Sets": [{
+			"SetId": 0,
+			"Ordinal": 0,
+			"Repetitions": 20,
+			"Weigth": 6,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 1,
+			"Repetitions": 12,
+			"Weigth": 16.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 2,
+			"Repetitions": 8,
+			"Weigth": 21.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 3,
+			"Repetitions": 8,
+			"Weigth": 21.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 4,
+			"Repetitions": 8,
+			"Weigth": 21.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		}],
+		"Workouts": null
+	},
+	{
+		"ExerciseId": 0,
+		"Ordinal": 1,
+		"Name": "Dips",
+		"ExerciseType": 0,
+		"Sets": [{
+			"SetId": 0,
+			"Ordinal": 0,
+			"Repetitions": 12,
+			"Weigth": 0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 1,
+			"Repetitions": 8,
+			"Weigth": 10.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 2,
+			"Repetitions": 8,
+			"Weigth": 15.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 3,
+			"Repetitions": 8,
+			"Weigth": 15.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 4,
+			"Repetitions": 8,
+			"Weigth": 10.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		}],
+		"Workouts": null
+	}]
+},
+{
+	"WorkoutId": 1,
+	"Name": "Back and Shoulder Workout",
+	"Comment": "Heavy deadlift session, shoulder focus on rear deltoids.",
+	"WorkoutType": 1,
+	"Exercises": [{
+		"ExerciseId": 0,
+		"Ordinal": 0,
+		"Name": "Deadlift",
+		"ExerciseType": 0,
+		"Sets": [{
+			"SetId": 0,
+			"Ordinal": 0,
+			"Repetitions": 20,
+			"Weigth": 50.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 1,
+			"Repetitions": 12,
+			"Weigth": 80.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 2,
+			"Repetitions": 8,
+			"Weigth": 110.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 3,
+			"Repetitions": 4,
+			"Weigth": 130.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 4,
+			"Repetitions": 2,
+			"Weigth": 140.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 5,
+			"Repetitions": 1,
+			"Weigth": 145.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 6,
+			"Repetitions": 4,
+			"Weigth": 130.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 7,
+			"Repetitions": 8,
+			"Weigth": 110.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		}],
+		"Workouts": null
+	},
+	{
+		"ExerciseId": 0,
+		"Ordinal": 1,
+		"Name": "Barbell Rear Delt Row",
+		"ExerciseType": 0,
+		"Sets": [{
+			"SetId": 0,
+			"Ordinal": 0,
+			"Repetitions": 20,
+			"Weigth": 20.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 1,
+			"Repetitions": 12,
+			"Weigth": 30.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 2,
+			"Repetitions": 8,
+			"Weigth": 40.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 3,
+			"Repetitions": 8,
+			"Weigth": 40.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 4,
+			"Repetitions": 8,
+			"Weigth": 40.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 5,
+			"Repetitions": 12,
+			"Weigth": 30.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		}],
+		"Workouts": null
+	},
+	{
+		"ExerciseId": 0,
+		"Ordinal": 2,
+		"Name": "Seated Dumbbell Press",
+		"ExerciseType": 0,
+		"Sets": [{
+			"SetId": 0,
+			"Ordinal": 0,
+			"Repetitions": 20,
+			"Weigth": 10.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 1,
+			"Repetitions": 12,
+			"Weigth": 13.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 2,
+			"Repetitions": 8,
+			"Weigth": 15.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 3,
+			"Repetitions": 6,
+			"Weigth": 18.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 3,
+			"Repetitions": 6,
+			"Weigth": 18.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 5,
+			"Repetitions": 8,
+			"Weigth": 15.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		}],
+		"Workouts": null
+	},
+	{
+		"ExerciseId": 0,
+		"Ordinal": 3,
+		"Name": "Machine Rear Deltoid Fly",
+		"ExerciseType": 0,
+		"Sets": [{
+			"SetId": 0,
+			"Ordinal": 0,
+			"Repetitions": 20,
+			"Weigth": 30.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 1,
+			"Repetitions": 12,
+			"Weigth": 40.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 2,
+			"Repetitions": 8,
+			"Weigth": 50.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 3,
+			"Repetitions": 8,
+			"Weigth": 50.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		},
+		{
+			"SetId": 0,
+			"Ordinal": 4,
+			"Repetitions": 8,
+			"Weigth": 50.0,
+			"ExerciseId": 0,
+			"Exercise": null
+		}],
+		"Workouts": null
+	}]
+}]
