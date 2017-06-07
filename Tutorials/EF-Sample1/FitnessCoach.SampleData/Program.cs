@@ -13,7 +13,7 @@ namespace FitnessCoach.SampleData
         /// </summary>
         static void Main()
         {
-            using (var db = new FitnessCoachContext()) // Fill DB with sample data from JSON-file
+            using (var db = new FitnessCoachContext())
             {
                 db.Workouts.AddRange(LoadSampleWorkouts());
                 db.SaveChanges();
