@@ -1,32 +1,31 @@
-﻿//using FitnessCoach.DataAccess;
-using FitnessCoach.Model;
-using Newtonsoft.Json;
-using System;
-using System.IO;
+﻿using FitnessCoach.Model;
+using static Newtonsoft.Json.JsonConvert;
+using static System.IO.File;
+using static System.IO.Path;
+using static System.Reflection.Assembly;
 
 namespace FitnessCoach.SampleData
 {
     class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// Loads sample data from a JSON file into the database.
+        /// </summary>
+        static void Main()
         {
-            Workout[] workouts = LoadSampleWorkouts();
-
-            // Fill DB with sample data from JSON-file
-            using (var db = new FitnessCoachContext())
+            using (var db = new FitnessCoachContext()) // Fill DB with sample data from JSON-file
             {
-                db.Workouts.AddRange(workouts);
+                db.Workouts.AddRange(LoadSampleWorkouts());
                 db.SaveChanges();
             }
         }
 
         private static Workout[] LoadSampleWorkouts()
         {
-            string path = System.Reflection.Assembly.GetExecutingAssembly().Location;
-            var directory = Path.GetDirectoryName(path);
-            var workoutFilePath = Path.Combine(directory, @"Data\workouts.json");
+            var directory = GetDirectoryName(GetExecutingAssembly().Location);
+            var workoutFilePath = Combine(directory, @"Data\workouts.json");
 
-            return JsonConvert.DeserializeObject<Workout[]>(File.ReadAllText(workoutFilePath));
+            return DeserializeObject<Workout[]>(ReadAllText(workoutFilePath));
         }
     }
 }
