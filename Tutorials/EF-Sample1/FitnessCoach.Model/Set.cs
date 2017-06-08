@@ -8,6 +8,8 @@
         public double Weigth { get; set; }
 
         public int ExerciseId { get; set; }
+
+        [Newtonsoft.Json.JsonIgnoreAttribute]
         public virtual Exercise Exercise { get; set; }
     }
 }

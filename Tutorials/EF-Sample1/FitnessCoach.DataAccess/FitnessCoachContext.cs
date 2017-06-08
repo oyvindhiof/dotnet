@@ -13,6 +13,8 @@ public partial class FitnessCoachContext : DbContext
 
     protected override void OnModelCreating(DbModelBuilder modelBuilder)
     {
+        Configuration.ProxyCreationEnabled = false;
+
         modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
 
         modelBuilder.Entity<Workout>()

@@ -10,8 +10,10 @@ namespace FitnessCoach.Model
 
         public ExerciseType ExerciseType { get; set; }
 
+        [Newtonsoft.Json.JsonIgnoreAttribute]
         public virtual List<Set> Sets { get; set; }
 
+        [Newtonsoft.Json.JsonIgnoreAttribute]
         public virtual List<Workout> Workouts { get; set; }
     }
 }
