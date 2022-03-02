@@ -32,7 +32,8 @@ namespace ComicsUniverse
             UnhandledException += App_UnhandledException;
             Ioc.Default.ConfigureServices(ConfigureServices());
 
-            LoadIcon("super-hero.ico");
+            // Commented out due to issues on some machines
+            // LoadIcon("super-hero.ico");
         }
 
         private void LoadIcon(string iconName)
