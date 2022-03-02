@@ -42,9 +42,9 @@ You can open the Task List using the menu `Views -> Task List`.
 ├── ComicsUniverse (Package)/ - MSIX packaging project
 │ ├── Strings/en-us/Resources.resw - localized string resources
 │ └── Package.appxmanifest - app properties and declarations
-├── ComicsUniverse.Data.Api/ - REST ful Api exposing the database
+├── ComicsUniverse.Data.Api/ - RESTful Api exposing the database
 ├── ComicsUniverse.DataAccess/ - EF based data access
-├── ComicsUniverse.Image.Api/ - REST ful Api for handling impages
+├── ComicsUniverse.Image.Api/ - RESTful Api for handling impages
 ├── ComicsUniverse.Model/ - Model resources used throughout the solution
 ├── ComicsUniverse.sln - open the solution file in Visual Studio
 └── README.md - this file
