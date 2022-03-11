@@ -21,7 +21,6 @@ namespace ComicsUniverse.ViewModels
         public CharacterViewModel(CharacterDto characterDto)
         {
             _characterDto = characterDto;
-
             ValidateAllProperties();
             _errors.AddRange(GetErrors());
         }

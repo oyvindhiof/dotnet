@@ -34,7 +34,7 @@ namespace ComicsUniverse.Core.Services
         {
             HttpResponseMessage response = await _httpClient.PostAsJsonAsync($"characters", character);
             response.EnsureSuccessStatusCode();
-         
+
             return await response.Content.ReadFromJsonAsync<CharacterDto>();
         }
 
