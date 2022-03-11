@@ -11,7 +11,7 @@
     <StackPanel>
         <TextBox VerticalAlignment="Center" PlaceholderText="Enter character's name" Text="{x:Bind ViewModel.Name, Mode=TwoWay}" Style="{ThemeResource TitleTextBlockStyle}" />
         <StackPanel Orientation="Horizontal" Padding="0,15,0,0">
-            <Image Source="{x:Bind ViewModel.ProfileImage, Mode=OneWay}" />
+            <Image Source="{x:Bind ViewModel.ProfileImageFullPath, Mode=OneWay}" />
             <StackPanel Padding="15,0,0,0">
                 <TextBlock Text="Alias" Style="{StaticResource DetailSubTitleStyle}" />
                 <TextBox Width="300" PlaceholderText="Enter character's alias" Text="{x:Bind ViewModel.Alias, Mode=TwoWay}" Style="{StaticResource DetailBodyBaseMediumStyle}" />

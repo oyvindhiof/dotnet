@@ -77,7 +77,7 @@ namespace ComicsUniverse.ViewModels
                 {
                     _addCommand = new RelayCommand(async () =>
                     {
-                        CharacterViewModel newCharacter = new() { ProfileImage = $"{BaseAddress.ImageApi}/Unknown.jpg" };
+                        CharacterViewModel newCharacter = new() { ProfileImage = "Unknown.jpg" };
                         CharacterPage page = new(newCharacter);
 
                         ContentDialog dialog = new()

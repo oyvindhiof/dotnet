@@ -16,7 +16,7 @@
                     <ColumnDefinition Width="Auto" />
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
-                <PersonPicture Height="50" ProfilePicture="{x:Bind ProfileImage}" />
+                <PersonPicture Height="50" ProfilePicture="{x:Bind ProfileImageFullPath}" />
                 <StackPanel
                     Grid.Column="1"
                     Margin="{StaticResource SmallLeftMargin}"

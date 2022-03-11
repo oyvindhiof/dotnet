@@ -20,7 +20,7 @@
         <StackPanel>
             <TextBlock VerticalAlignment="Center" Text="{x:Bind ListDetailsMenuItem.Name, Mode=OneWay}" Style="{ThemeResource TitleTextBlockStyle}" />
             <StackPanel Name="block" Orientation="Horizontal" Padding="0,15,0,0">
-                <Image Source="{x:Bind ListDetailsMenuItem.ProfileImage, Mode=OneWay}" />
+                <Image Source="{x:Bind ListDetailsMenuItem.ProfileImageFullPath, Mode=OneWay}" />
                 <StackPanel Padding="15,0,0,0">
                     <TextBlock Text="Alias" Style="{StaticResource DetailSubTitleStyle}" />
                     <TextBlock Text="{x:Bind ListDetailsMenuItem.Alias, Mode=OneWay}" Style="{StaticResource DetailBodyBaseMediumStyle}" />

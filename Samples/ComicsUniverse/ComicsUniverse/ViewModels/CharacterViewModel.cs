@@ -20,7 +20,6 @@ namespace ComicsUniverse.ViewModels
         }
         public CharacterViewModel(CharacterDto characterDto)
         {
-            characterDto.ProfileImage = $"{BaseAddress.ImageApi}/{characterDto.ProfileImage}";
             _characterDto = characterDto;
 
             ValidateAllProperties();
@@ -34,7 +33,7 @@ namespace ComicsUniverse.ViewModels
             Alias = c.Alias,
             Occupation = c.Occupation,
             Description = c.Description,
-            ProfileImage = System.IO.Path.GetFileName((new Uri(c.ProfileImage)).LocalPath),
+            ProfileImage = c.ProfileImage,
             Universe = c.Universe,
             Powers = c.Powers
         };
@@ -45,6 +44,8 @@ namespace ComicsUniverse.ViewModels
         public string Errors => string.Join(Environment.NewLine, from ValidationResult e in _errors select e.ErrorMessage);
 
         public new bool HasErrors => Errors.Length > 0;
+
+        public string ProfileImageFullPath => $"{BaseAddress.ImageApi}/{ProfileImage}";
 
         public int CharacterId
         {
